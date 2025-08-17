@@ -18,19 +18,36 @@ export default function SongSidebar({
   onSingerSelect, 
   onArtistSelect 
 }: SongSidebarProps) {
-  const singers = Array.from(new Set(songs.map(song => song.singer))).filter(Boolean)
-  const artists = Array.from(new Set(songs.map(song => song.song_artist))).filter(Boolean)
+  // 우타이테 목록을 곡 수별로 정렬
+  const singerCounts = songs.reduce((acc, song) => {
+    if (song.utaite_name) {
+      acc[song.utaite_name] = (acc[song.utaite_name] || 0) + 1
+    }
+    return acc
+  }, {} as Record<string, number>)
+  
+  const singers = Object.keys(singerCounts).sort((a, b) => singerCounts[b] - singerCounts[a])
+  
+  // 아티스트 목록을 곡 수별로 정렬
+  const artistCounts = songs.reduce((acc, song) => {
+    if (song.song_artist) {
+      acc[song.song_artist] = (acc[song.song_artist] || 0) + 1
+    }
+    return acc
+  }, {} as Record<string, number>)
+  
+  const artists = Object.keys(artistCounts).sort((a, b) => artistCounts[b] - artistCounts[a])
 
   const getFilteredSongCount = (singer?: string, artist?: string) => {
     return songs.filter(song => {
-      const singerMatch = singer ? song.singer === singer : true
+      const singerMatch = singer ? song.utaite_name === singer : true
       const artistMatch = artist ? song.song_artist === artist : true
       return singerMatch && artistMatch
     }).length
   }
 
   return (
-    <div className="fixed left-0 top-16 w-80 h-[calc(100vh-4rem)] bg-youtube-dark border-r border-gray-700 overflow-y-auto custom-scrollbar">
+    <div className="fixed left-0 top-16 w-72 h-[calc(100vh-4rem)] bg-youtube-dark border-r border-gray-700 overflow-y-auto custom-scrollbar">
       <div className="p-4">
         {/* 부른 사람 필터 */}
         <div className="mb-6">
@@ -88,7 +105,7 @@ export default function SongSidebar({
               아티스트
             </h2>
             
-            <div className="space-y-2 max-h-64 overflow-y-auto custom-scrollbar">
+            <div className="space-y-2 max-h-96 overflow-y-auto custom-scrollbar">
               <button
                 onClick={() => onArtistSelect('')}
                 className={`w-full text-left px-3 py-2 rounded-lg transition-colors ${

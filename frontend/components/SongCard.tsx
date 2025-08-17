@@ -13,8 +13,8 @@ export default function SongCard({ song }: SongCardProps) {
 
   const handleSongClick = (e: React.MouseEvent) => {
     e.stopPropagation() // 부모의 onClick 이벤트 방지
-    if (song.song_master_id) {
-      router.push(`/song/${song.song_master_id}`)
+    if (song.song_id) {
+      router.push(`/song/${song.song_id}`)
     }
   }
 
@@ -25,7 +25,7 @@ export default function SongCard({ song }: SongCardProps) {
 
   const handleUtaiteClick = (e: React.MouseEvent) => {
     e.stopPropagation() // 부모의 onClick 이벤트 방지
-    router.push(`/utaite/${encodeURIComponent(song.singer)}`)
+    router.push(`/utaite/${encodeURIComponent(song.utaite_name)}`)
   }
 
   const timeToSeconds = (timeStr: string): number => {
@@ -53,7 +53,7 @@ export default function SongCard({ song }: SongCardProps) {
         <EmbeddedPlayer
           videoId={song.video_id}
           startTime={timeToSeconds(song.start_time)}
-          title={song.song_name}
+          title={song.song_title}
         />
         
         <div className="absolute bottom-2 left-2 bg-black bg-opacity-80 text-white text-xs px-2 py-1 rounded">
@@ -68,7 +68,7 @@ export default function SongCard({ song }: SongCardProps) {
           onClick={handleSongClick}
           title="이 곡의 다른 기록들 보기"
         >
-          {song.song_name}
+          {song.song_title}
         </h3>
         <p 
           className="text-gray-300 text-sm mb-1 hover:text-youtube-red transition-colors cursor-pointer"
@@ -82,7 +82,7 @@ export default function SongCard({ song }: SongCardProps) {
           onClick={handleUtaiteClick}
           title="이 우타이테의 다른 노래들 보기"
         >
-          우타이테: {song.singer || '미상'}
+          우타이테: {song.utaite_name || '미상'}
         </p>
       </div>
     </div>

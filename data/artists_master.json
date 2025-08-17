@@ -1,0 +1,842 @@
+[
+  {
+    "id": "artist_54dc3ce83025",
+    "names": {
+      "original": "苺咲べりぃ",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 6,
+    "created_at": "2025-08-17T06:01:02.163913",
+    "updated_at": "2025-08-17T06:01:02.163915"
+  },
+  {
+    "id": "artist_109d907fb63d",
+    "names": {
+      "original": "超ときめき♡宣伝部",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163838",
+    "updated_at": "2025-08-17T06:01:02.163839"
+  },
+  {
+    "id": "artist_96c28adb9552",
+    "names": {
+      "original": "ランカ・リー/中島愛",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 7,
+    "created_at": "2025-08-17T06:01:02.163758",
+    "updated_at": "2025-08-17T06:01:02.163760"
+  },
+  {
+    "id": "artist_4743773d6f13",
+    "names": {
+      "original": "坂本真綾",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 5,
+    "created_at": "2025-08-17T06:01:02.163965",
+    "updated_at": "2025-08-17T06:01:02.163966"
+  },
+  {
+    "id": "artist_2b8bebf8f080",
+    "names": {
+      "original": "大塚愛",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163714",
+    "updated_at": "2025-08-17T06:01:02.163715"
+  },
+  {
+    "id": "artist_2cdcdf384125",
+    "names": {
+      "original": "鈴木みのり",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 3,
+    "created_at": "2025-08-17T06:01:02.163693",
+    "updated_at": "2025-08-17T06:01:02.163696"
+  },
+  {
+    "id": "artist_59844b6674b4",
+    "names": {
+      "original": "小倉唯",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163932",
+    "updated_at": "2025-08-17T06:01:02.163934"
+  },
+  {
+    "id": "artist_10292fb6dffd",
+    "names": {
+      "original": "喜多村英梨",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163960",
+    "updated_at": "2025-08-17T06:01:02.163962"
+  },
+  {
+    "id": "artist_a0bde3d19a1c",
+    "names": {
+      "original": "緑黄色社会",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163486",
+    "updated_at": "2025-08-17T06:01:02.163487"
+  },
+  {
+    "id": "artist_ab3ab9686fd3",
+    "names": {
+      "original": "シェリル・ノーム/May'n",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163688",
+    "updated_at": "2025-08-17T06:01:02.163689"
+  },
+  {
+    "id": "artist_a6639e83936f",
+    "names": {
+      "original": "i☆Ris",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163768",
+    "updated_at": "2025-08-17T06:01:02.163769"
+  },
+  {
+    "id": "artist_9c8f190b3f74",
+    "names": {
+      "original": "水瀬いのり",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163566",
+    "updated_at": "2025-08-17T06:01:02.163568"
+  },
+  {
+    "id": "artist_723acf0cbe04",
+    "names": {
+      "original": "40mP",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163505",
+    "updated_at": "2025-08-17T06:01:02.163506"
+  },
+  {
+    "id": "artist_fba168cbf5a8",
+    "names": {
+      "original": "ALI PROJECT",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163510",
+    "updated_at": "2025-08-17T06:01:02.163511"
+  },
+  {
+    "id": "artist_76e57f870036",
+    "names": {
+      "original": "MAHO堂",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163514",
+    "updated_at": "2025-08-17T06:01:02.163516"
+  },
+  {
+    "id": "artist_11a40510a1d9",
+    "names": {
+      "original": "なるみや",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163519",
+    "updated_at": "2025-08-17T06:01:02.163520"
+  },
+  {
+    "id": "artist_95742149d9a1",
+    "names": {
+      "original": "Changin' My Life",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163524",
+    "updated_at": "2025-08-17T06:01:02.163525"
+  },
+  {
+    "id": "artist_bb44dbb05ade",
+    "names": {
+      "original": "ポルノグラフィティ",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163528",
+    "updated_at": "2025-08-17T06:01:02.163531"
+  },
+  {
+    "id": "artist_ceab94386dee",
+    "names": {
+      "original": "Linked Horizon",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163535",
+    "updated_at": "2025-08-17T06:01:02.163536"
+  },
+  {
+    "id": "artist_17f8e3d9c358",
+    "names": {
+      "original": "Sound Horizon",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163546",
+    "updated_at": "2025-08-17T06:01:02.163548"
+  },
+  {
+    "id": "artist_722c9e7df1dc",
+    "names": {
+      "original": "ハムちゃんず\r\n\n10ヶ月おめでとうございます",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163552",
+    "updated_at": "2025-08-17T06:01:02.163553"
+  },
+  {
+    "id": "artist_65b581fc6d3e",
+    "names": {
+      "original": "結束バンド",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163561",
+    "updated_at": "2025-08-17T06:01:02.163562"
+  },
+  {
+    "id": "artist_fd9184af9135",
+    "names": {
+      "original": "昆夏美",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163573",
+    "updated_at": "2025-08-17T06:01:02.163575"
+  },
+  {
+    "id": "artist_6e008de0dd27",
+    "names": {
+      "original": "FRUITS ZIPPER",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163592",
+    "updated_at": "2025-08-17T06:01:02.163594"
+  },
+  {
+    "id": "artist_2fef027d7796",
+    "names": {
+      "original": "こじまめぐみ",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163602",
+    "updated_at": "2025-08-17T06:01:02.163603"
+  },
+  {
+    "id": "artist_ce4236e69a12",
+    "names": {
+      "original": "Mrs. GREEN APPLE",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163606",
+    "updated_at": "2025-08-17T06:01:02.163607"
+  },
+  {
+    "id": "artist_1d23cac77df9",
+    "names": {
+      "original": "ZONE",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163616",
+    "updated_at": "2025-08-17T06:01:02.163618"
+  },
+  {
+    "id": "artist_ada35a736fa1",
+    "names": {
+      "original": "whiteberry",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163622",
+    "updated_at": "2025-08-17T06:01:02.163623"
+  },
+  {
+    "id": "artist_040701a3f608",
+    "names": {
+      "original": "土屋実紀 & 下屋則子",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163627",
+    "updated_at": "2025-08-17T06:01:02.163628"
+  },
+  {
+    "id": "artist_a863af7a5d6a",
+    "names": {
+      "original": "小林沙苗",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163632",
+    "updated_at": "2025-08-17T06:01:02.163633"
+  },
+  {
+    "id": "artist_288abd163211",
+    "names": {
+      "original": "中田あすみ & 寺門仁美 & 浅野まゆみ",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163642",
+    "updated_at": "2025-08-17T06:01:02.163644"
+  },
+  {
+    "id": "artist_06f009a91ca9",
+    "names": {
+      "original": "堀江由衣",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 3,
+    "created_at": "2025-08-17T06:01:02.163951",
+    "updated_at": "2025-08-17T06:01:02.163952"
+  },
+  {
+    "id": "artist_5c34324496c7",
+    "names": {
+      "original": "ワルキューレ",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163666",
+    "updated_at": "2025-08-17T06:01:02.163667"
+  },
+  {
+    "id": "artist_83d9e4a16519",
+    "names": {
+      "original": "≠ME",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163672",
+    "updated_at": "2025-08-17T06:01:02.163674"
+  },
+  {
+    "id": "artist_013367e21ea0",
+    "names": {
+      "original": "シェリル・ノーム/May'n & ランカ・リー/中島愛",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163678",
+    "updated_at": "2025-08-17T06:01:02.163679"
+  },
+  {
+    "id": "artist_d5af946a81a1",
+    "names": {
+      "original": "亜咲花",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163700",
+    "updated_at": "2025-08-17T06:01:02.163701"
+  },
+  {
+    "id": "artist_a3d9e4b0efe2",
+    "names": {
+      "original": "μ's",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163705",
+    "updated_at": "2025-08-17T06:01:02.163706"
+  },
+  {
+    "id": "artist_cf866b6e4253",
+    "names": {
+      "original": "Aqours",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163709",
+    "updated_at": "2025-08-17T06:01:02.163710"
+  },
+  {
+    "id": "artist_c3d2932936d4",
+    "names": {
+      "original": "Aiko",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163725",
+    "updated_at": "2025-08-17T06:01:02.163726"
+  },
+  {
+    "id": "artist_5acc659d13b5",
+    "names": {
+      "original": "supercell",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163730",
+    "updated_at": "2025-08-17T06:01:02.163731"
+  },
+  {
+    "id": "artist_cd598472ad9f",
+    "names": {
+      "original": "コレサワ",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163739",
+    "updated_at": "2025-08-17T06:01:02.163740"
+  },
+  {
+    "id": "artist_d37db6a1cad1",
+    "names": {
+      "original": "スキマスイッチ",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163744",
+    "updated_at": "2025-08-17T06:01:02.163745"
+  },
+  {
+    "id": "artist_f094034c7b17",
+    "names": {
+      "original": "島谷ひとみ",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163748",
+    "updated_at": "2025-08-17T06:01:02.163750"
+  },
+  {
+    "id": "artist_eb56bf8302d5",
+    "names": {
+      "original": "Ｂ小町",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163763",
+    "updated_at": "2025-08-17T06:01:02.163764"
+  },
+  {
+    "id": "artist_3a3b753c42db",
+    "names": {
+      "original": "チーム\"ハナヤマタ\"",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163772",
+    "updated_at": "2025-08-17T06:01:02.163774"
+  },
+  {
+    "id": "artist_83372dd41a3e",
+    "names": {
+      "original": "SmileY inc.",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163777",
+    "updated_at": "2025-08-17T06:01:02.163778"
+  },
+  {
+    "id": "artist_e032951f75f1",
+    "names": {
+      "original": "doriko",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163781",
+    "updated_at": "2025-08-17T06:01:02.163782"
+  },
+  {
+    "id": "artist_49d3e064736e",
+    "names": {
+      "original": "きりたんP",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163831",
+    "updated_at": "2025-08-17T06:01:02.163832"
+  },
+  {
+    "id": "artist_6477cbdd43c1",
+    "names": {
+      "original": "西沢さんP",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163797",
+    "updated_at": "2025-08-17T06:01:02.163798"
+  },
+  {
+    "id": "artist_41cdea3a4333",
+    "names": {
+      "original": "芹澤優",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163802",
+    "updated_at": "2025-08-17T06:01:02.163803"
+  },
+  {
+    "id": "artist_3dafda1d0ec9",
+    "names": {
+      "original": "HoneyWorks",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163818",
+    "updated_at": "2025-08-17T06:01:02.163819"
+  },
+  {
+    "id": "artist_5a46bbd74548",
+    "names": {
+      "original": "釘宮理恵",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163813",
+    "updated_at": "2025-08-17T06:01:02.163814"
+  },
+  {
+    "id": "artist_d20e116eff14",
+    "names": {
+      "original": "CUTIE STREET",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163822",
+    "updated_at": "2025-08-17T06:01:02.163824"
+  },
+  {
+    "id": "artist_262e8c48935a",
+    "names": {
+      "original": "KEI",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163827",
+    "updated_at": "2025-08-17T06:01:02.163828"
+  },
+  {
+    "id": "artist_6624706aa002",
+    "names": {
+      "original": "三人祭",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163852",
+    "updated_at": "2025-08-17T06:01:02.163853"
+  },
+  {
+    "id": "artist_a97b176faf30",
+    "names": {
+      "original": "松浦亜弥",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163857",
+    "updated_at": "2025-08-17T06:01:02.163858"
+  },
+  {
+    "id": "artist_b53498bd12b2",
+    "names": {
+      "original": "LiSA",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 3,
+    "created_at": "2025-08-17T06:01:02.163893",
+    "updated_at": "2025-08-17T06:01:02.163895"
+  },
+  {
+    "id": "artist_850cc3da5e71",
+    "names": {
+      "original": "Aimer",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163866",
+    "updated_at": "2025-08-17T06:01:02.163867"
+  },
+  {
+    "id": "artist_934055de4f06",
+    "names": {
+      "original": "ヨルシカ",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163875",
+    "updated_at": "2025-08-17T06:01:02.163876"
+  },
+  {
+    "id": "artist_e6effaa86db6",
+    "names": {
+      "original": "YOASOBI",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163884",
+    "updated_at": "2025-08-17T06:01:02.163885"
+  },
+  {
+    "id": "artist_3172a1733db9",
+    "names": {
+      "original": "奧華子",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163903",
+    "updated_at": "2025-08-17T06:01:02.163904"
+  },
+  {
+    "id": "artist_ec71587d24c1",
+    "names": {
+      "original": "秦基博",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163907",
+    "updated_at": "2025-08-17T06:01:02.163909"
+  },
+  {
+    "id": "artist_236c679f9ad5",
+    "names": {
+      "original": "ClariS",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 3,
+    "created_at": "2025-08-17T06:01:02.163928",
+    "updated_at": "2025-08-17T06:01:02.163929"
+  },
+  {
+    "id": "artist_0593672d8940",
+    "names": {
+      "original": "田村ゆかり",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 2,
+    "created_at": "2025-08-17T06:01:02.163942",
+    "updated_at": "2025-08-17T06:01:02.163943"
+  },
+  {
+    "id": "artist_4676aaef7723",
+    "names": {
+      "original": "AiRI",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163956",
+    "updated_at": "2025-08-17T06:01:02.163957"
+  },
+  {
+    "id": "artist_7cc0e3991a53",
+    "names": {
+      "original": "ChouCho",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163969",
+    "updated_at": "2025-08-17T06:01:02.163971"
+  },
+  {
+    "id": "artist_9be62cbca806",
+    "names": {
+      "original": "Goose house",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163974",
+    "updated_at": "2025-08-17T06:01:02.163975"
+  },
+  {
+    "id": "artist_22552b267948",
+    "names": {
+      "original": "みかくにんぐッ!",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163979",
+    "updated_at": "2025-08-17T06:01:02.163980"
+  },
+  {
+    "id": "artist_a363ef917993",
+    "names": {
+      "original": "岩男潤子",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163983",
+    "updated_at": "2025-08-17T06:01:02.163985"
+  },
+  {
+    "id": "artist_48b516d919e5",
+    "names": {
+      "original": "観月ありさ",
+      "korean": "",
+      "english": "",
+      "romanized": ""
+    },
+    "song_count": 1,
+    "created_at": "2025-08-17T06:01:02.163988",
+    "updated_at": "2025-08-17T06:01:02.163989"
+  }
+]

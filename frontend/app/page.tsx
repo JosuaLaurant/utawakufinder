@@ -23,7 +23,7 @@ export default function Home() {
     
     // 부른이 필터링
     if (selectedSinger) {
-      filtered = filtered.filter(song => song.singer === selectedSinger)
+      filtered = filtered.filter(song => song.utaite_name === selectedSinger)
     }
     
     // 원곡자 필터링
@@ -44,7 +44,8 @@ export default function Home() {
     console.log('백엔드 URL:', process.env.NEXT_PUBLIC_BACKEND_URL)
     
     try {
-      const url = `${process.env.NEXT_PUBLIC_BACKEND_URL}/songs`
+      const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:9030'
+      const url = `${backendUrl}/songs`
       console.log('📡 요청 URL:', url)
       
       const response = await fetch(url)
@@ -93,7 +94,7 @@ export default function Home() {
         onSingerSelect={setSelectedSinger}
         onArtistSelect={setSelectedArtist}
       />
-      <div className="flex-1 ml-80">
+      <div className="flex-1 ml-72">
         <Header />
         <main className="pt-20 p-6 pb-6">
           <div className="mb-6">

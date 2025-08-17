@@ -6,13 +6,30 @@ import Header from '@/components/Header'
 import { Music, Users, PlayCircle, Calendar, Mic } from 'lucide-react'
 
 interface Utaite {
+  id: number
   name: string
-  song_count: number
-  unique_song_count: number
-  unique_artist_count: number
-  first_date: string
-  latest_date: string
-  latest_thumbnail: string
+  name_korean?: string
+  name_english?: string
+  name_romanized?: string
+  total_performances: number
+  unique_songs: number
+  unique_artists: number
+  latest_performance?: {
+    date: string
+    thumbnail_url: string
+    song_title: string
+  }
+  first_performance?: {
+    date: string
+    thumbnail_url: string
+    song_title: string
+  }
+  top_songs: Array<{
+    id: number
+    title: string
+    artist_name: string
+    performance_count: number
+  }>
 }
 
 export default function UtaitesPage() {
@@ -74,13 +91,15 @@ export default function UtaitesPage() {
               >
                 {/* 우타이테 썸네일 */}
                 <div className="relative mb-4">
-                  <img
-                    src={utaite.latest_thumbnail}
-                    alt={utaite.name}
-                    className="w-full h-40 object-cover rounded-lg"
-                  />
+                  {utaite.latest_performance && (
+                    <img
+                      src={utaite.latest_performance.thumbnail_url}
+                      alt={utaite.name}
+                      className="w-full h-40 object-cover rounded-lg"
+                    />
+                  )}
                   <div className="absolute bottom-2 right-2 bg-black bg-opacity-80 text-white text-xs px-2 py-1 rounded">
-                    {new Date(utaite.latest_date).toLocaleDateString()}
+                    {utaite.latest_performance && new Date(utaite.latest_performance.date).toLocaleDateString()}
                   </div>
                 </div>
 
@@ -93,12 +112,12 @@ export default function UtaitesPage() {
                   <div className="grid grid-cols-2 gap-4 text-sm text-gray-400 mb-3">
                     <div className="flex items-center gap-2">
                       <PlayCircle className="w-4 h-4" />
-                      <span>{utaite.song_count}회</span>
+                      <span>{utaite.total_performances}회</span>
                     </div>
                     
                     <div className="flex items-center gap-2">
                       <Music className="w-4 h-4" />
-                      <span>{utaite.unique_song_count}곡</span>
+                      <span>{utaite.unique_songs}곡</span>
                     </div>
                     
                     <div className="flex items-center gap-2">
@@ -121,7 +140,7 @@ export default function UtaitesPage() {
                       <div 
                         className="bg-youtube-red h-2 rounded-full" 
                         style={{
-                          width: `${Math.min((utaite.song_count / Math.max(...utaites.map(u => u.song_count))) * 100, 100)}%`
+                          width: `${Math.min((utaite.total_performances / Math.max(...utaites.map(u => u.song_count))) * 100, 100)}%`
                         }}
                       ></div>
                     </div>

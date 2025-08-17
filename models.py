@@ -27,12 +27,14 @@ class Artist(BaseModel):
     updated_at: Optional[str] = None
 
 class SongMaster(BaseModel):
-    """곡 마스터 테이블"""
+    """곡 마스터 테이블 (기존 호환성 유지)"""
     id: str  # song_xxxxx
     titles: Dict[str, str]  # {"original": "ホシキラ", "korean": "호시키라", "english": "Hoshikira"}
-    artist_id: str  # reference to Artist
+    artist: Dict[str, str]  # {"original": "ランカ・リー", "korean": "란카 리"} - 기존 호환성
+    artist_id: Optional[str] = None  # reference to Artist (향후 확장용)
     tags: List[str] = []
     performance_count: int = 0
+    album_art_url: Optional[str] = None  # 앨범아트 이미지 URL
     created_at: Optional[str] = None
     updated_at: Optional[str] = None
 

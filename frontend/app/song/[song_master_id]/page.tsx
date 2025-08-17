@@ -8,7 +8,7 @@ import { SongEntry } from '@/types'
 import { Music, Users, Calendar, PlayCircle, ArrowLeft, ExternalLink } from 'lucide-react'
 
 interface SongMaster {
-  id: string
+  id: number
   titles: { original: string }
   artist: { original: string }
   tags: string[]
@@ -35,10 +35,12 @@ export default function SongPage() {
     console.log('🎵 곡 상세 정보 가져오기 시작:', song_master_id)
     
     try {
+      const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:9030'
+      
       // 곡 마스터 정보 가져오기
-      const masterResponse = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/songs/master`)
+      const masterResponse = await fetch(`${backendUrl}/songs/master`)
       const masterData = await masterResponse.json()
-      const master = masterData.find((m: SongMaster) => m.id === song_master_id)
+      const master = masterData.find((m: SongMaster) => m.id === parseInt(song_master_id))
       
       if (!master) {
         throw new Error('곡을 찾을 수 없습니다.')
@@ -48,11 +50,19 @@ export default function SongPage() {
       console.log('✅ 곡 마스터 정보:', master.titles.original)
 
       // 해당 곡을 부른 모든 기록 가져오기
-      const performancesResponse = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/songs/by-master/${song_master_id}`)
+      const performancesResponse = await fetch(`${backendUrl}/songs/by-master/${song_master_id}`)
+      
+      if (!performancesResponse.ok) {
+        throw new Error('부른 기록을 가져올 수 없습니다.')
+      }
+      
       const performancesData = await performancesResponse.json()
       
-      setPerformances(performancesData)
-      console.log('✅ 부른 기록:', performancesData.length, '개')
+      // API가 배열을 반환하는지 확인
+      const performances = Array.isArray(performancesData) ? performancesData : []
+      
+      setPerformances(performances)
+      console.log('✅ 부른 기록:', performances.length, '개')
 
       // 같은 아티스트의 다른 곡들 찾기
       const relatedArtistSongs = masterData.filter((m: SongMaster) => 
@@ -71,7 +81,7 @@ export default function SongPage() {
     }
   }
 
-  const uniqueSingers = Array.from(new Set(performances.map(p => p.singer)))
+  const uniqueSingers = Array.from(new Set(performances.map(p => p.utaite_name)))
   const latestPerformance = performances.length > 0 ? performances[performances.length - 1] : null
   const firstPerformance = performances.length > 0 ? performances[0] : null
 
@@ -120,7 +130,7 @@ export default function SongPage() {
               {latestPerformance && (
                 <div className="flex-shrink-0">
                   <img 
-                    src={latestPerformance.thumbnail} 
+                    src={latestPerformance.thumbnail_url} 
                     alt={songMaster.titles.original}
                     className="w-48 h-32 object-cover rounded-lg"
                   />
@@ -162,7 +172,7 @@ export default function SongPage() {
                   <p className="text-sm text-gray-400 mb-2">이 곡을 부른 우타이테들:</p>
                   <div className="flex flex-wrap gap-2">
                     {uniqueSingers.map(singer => {
-                      const count = performances.filter(p => p.singer === singer).length
+                      const count = performances.filter(p => p.utaite_name === singer).length
                       return (
                         <span 
                           key={singer}

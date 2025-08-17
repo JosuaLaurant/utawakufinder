@@ -1,11 +1,12 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { useRouter } from 'next/navigation'
 import Header from '@/components/Header'
 import { Music, User, TrendingUp, Calendar } from 'lucide-react'
 
 interface SongMaster {
-  id: string
+  id: number
   titles: {
     original: string
     korean?: string
@@ -20,16 +21,22 @@ interface SongMaster {
   }
   tags: string[]
   performance_count: number
+  album_art_url?: string
 }
 
 interface Performance {
-  id: string
+  id: number
   start_time: string
+  date: string
+  song_id: number  // API에서 실제로 사용하는 필드명
+  song_title: string
+  song_artist: string
+  utaite_id: number
+  utaite_name: string
   video_id: string
   video_title: string
-  singer: string
-  date: string
-  thumbnail: string
+  video_channel: string
+  thumbnail_url: string
 }
 
 interface SongWithPerformances {
@@ -39,6 +46,7 @@ interface SongWithPerformances {
 }
 
 export default function SongsPage() {
+  const router = useRouter()
   const [songs, setSongs] = useState<SongWithPerformances[]>([])
   const [loading, setLoading] = useState(true)
   const [sortBy, setSortBy] = useState<'performance_count' | 'latest' | 'alphabetical'>('performance_count')
@@ -51,22 +59,40 @@ export default function SongsPage() {
     try {
       setLoading(true)
       
+      console.log('🔄 Fetching songs data...')
+      console.log('Backend URL:', process.env.NEXT_PUBLIC_BACKEND_URL)
+      
       // 곡 마스터와 부른 기록을 동시에 가져오기
+      const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:9030'
       const [songsResponse, performancesResponse] = await Promise.all([
-        fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/songs/master`),
-        fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/songs`)
+        fetch(`${backendUrl}/songs/master`),
+        fetch(`${backendUrl}/songs`)
       ])
       
+      console.log('📡 Response status:', {
+        songsResponse: songsResponse.status,
+        performancesResponse: performancesResponse.status
+      })
+      
       if (!songsResponse.ok || !performancesResponse.ok) {
+        console.error('❌ Response not OK:', {
+          songsResponse: { status: songsResponse.status, statusText: songsResponse.statusText },
+          performancesResponse: { status: performancesResponse.status, statusText: performancesResponse.statusText }
+        })
         throw new Error('데이터를 가져오는데 실패했습니다')
       }
       
       const songsData: SongMaster[] = await songsResponse.json()
       const performancesData: Performance[] = await performancesResponse.json()
       
+      console.log('📋 Data received:', {
+        songsCount: songsData.length,
+        performancesCount: performancesData.length
+      })
+      
       // 곡별로 부른 기록 그룹화
       const songWithPerformances: SongWithPerformances[] = songsData.map(song => {
-        const songPerformances = performancesData.filter(p => p.song_master_id === song.id)
+        const songPerformances = performancesData.filter(p => p.song_id === song.id)
         const latestPerformance = songPerformances.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())[0]
         
         return {
@@ -76,9 +102,10 @@ export default function SongsPage() {
         }
       })
       
+      console.log('✅ Songs processed:', songWithPerformances.length)
       setSongs(songWithPerformances)
     } catch (error) {
-      console.error('악곡 정보 가져오기 실패:', error)
+      console.error('❌ 악곡 정보 가져오기 실패:', error)
     } finally {
       setLoading(false)
     }
@@ -150,10 +177,26 @@ export default function SongsPage() {
                 key={item.song.id}
                 className="bg-youtube-gray border border-gray-700 rounded-lg p-6 hover:bg-gray-700 transition-colors"
               >
-                <div className="flex items-start justify-between">
+                <div className="flex items-start space-x-4">
+                  {/* 앨범아트 */}
+                  <div className="flex-shrink-0">
+                    <img
+                      src={item.song.album_art_url || "https://via.placeholder.com/120x120/1a1a1a/666666?text=♪"}
+                      alt={`${item.song.titles.original} 앨범아트`}
+                      className="w-20 h-20 object-cover rounded-lg shadow-lg"
+                      onError={(e) => {
+                        e.currentTarget.src = "https://via.placeholder.com/120x120/1a1a1a/666666?text=♪"
+                      }}
+                    />
+                  </div>
+
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center space-x-3 mb-2">
-                      <h3 className="text-xl font-semibold text-white truncate">
+                      <h3 
+                        className="text-xl font-semibold text-white truncate hover:text-youtube-red transition-colors cursor-pointer"
+                        onClick={() => router.push(`/song/${item.song.id}`)}
+                        title="이 곡의 모든 부른 기록 보기"
+                      >
                         {item.song.titles.original}
                       </h3>
                       {item.song.titles.korean && (
@@ -203,14 +246,14 @@ export default function SongsPage() {
                   </div>
 
                   {item.latest_performance && (
-                    <div className="flex-shrink-0 ml-4">
+                    <div className="flex-shrink-0">
                       <img
-                        src={item.latest_performance.thumbnail}
+                        src={item.latest_performance.thumbnail_url}
                         alt={item.latest_performance.video_title}
                         className="w-24 h-16 object-cover rounded-lg"
                       />
                       <div className="text-xs text-gray-400 mt-1 text-center truncate w-24">
-                        {item.latest_performance.singer}
+                        {item.latest_performance.utaite_name}
                       </div>
                     </div>
                   )}
@@ -232,12 +275,12 @@ export default function SongsPage() {
                             >
                               <div className="flex items-center space-x-3">
                                 <img
-                                  src={performance.thumbnail}
+                                  src={performance.thumbnail_url}
                                   alt={performance.video_title}
                                   className="w-12 h-8 object-cover rounded"
                                 />
                                 <div>
-                                  <div className="text-white font-medium">{performance.singer}</div>
+                                  <div className="text-white font-medium">{performance.utaite_name}</div>
                                   <div className="text-gray-400 text-xs truncate max-w-xs">
                                     {performance.video_title}
                                   </div>

@@ -7,8 +7,12 @@
     "artist": {
       "original": "苺咲べりぃ"
     },
+    "artist_id": "artist_54dc3ce83025",
     "tags": [],
-    "performance_count": 6
+    "performance_count": 6,
+    "album_art_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1b/d0/08/1bd008b9-95f5-8395-4189-83889de5d1e7/4550709281003_cover.png/600x600bb.jpg",
+    "created_at": "2025-08-17T06:01:02.164061",
+    "updated_at": "2025-08-17T06:01:02.164063"
   },
   {
     "id": "song_958ca29ab1ae",
@@ -18,8 +22,12 @@
     "artist": {
       "original": "超ときめき♡宣伝部"
     },
+    "artist_id": "artist_109d907fb63d",
     "tags": [],
-    "performance_count": 6
+    "performance_count": 6,
+    "album_art_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/da/76/4d/da764da7-3a34-2eee-0a82-35581a06ddc3/ANTCD-A0000003147.jpg/600x600bb.jpg",
+    "created_at": "2025-08-17T06:01:02.164066",
+    "updated_at": "2025-08-17T06:01:02.164067"
   },
   {
     "id": "song_4d64c375d85b",
@@ -29,8 +37,12 @@
     "artist": {
       "original": "ランカ・リー/中島愛"
     },
+    "artist_id": "artist_96c28adb9552",
     "tags": [],
-    "performance_count": 5
+    "performance_count": 5,
+    "album_art_url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/f7/bb/4e/f7bb4ec8-c918-82d6-8912-9e6453c04b10/D000000001754.jpg/600x600bb.jpg",
+    "created_at": "2025-08-17T06:01:02.164069",
+    "updated_at": "2025-08-17T06:01:02.164070"
   },
   {
     "id": "song_3834f27bb8d2",
@@ -40,8 +52,12 @@
     "artist": {
       "original": "ランカ・リー/中島愛"
     },
+    "artist_id": "artist_96c28adb9552",
     "tags": [],
-    "performance_count": 3
+    "performance_count": 3,
+    "album_art_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4c/1c/e7/4c1ce763-9cff-7675-e6db-80f377a2d6c1/mzi.okfygwta.jpg/600x600bb.jpg",
+    "created_at": "2025-08-17T06:01:02.164072",
+    "updated_at": "2025-08-17T06:01:02.164073"
   },
   {
     "id": "song_5bb43ca07665",
@@ -51,8 +67,12 @@
     "artist": {
       "original": "ランカ・リー/中島愛"
     },
+    "artist_id": "artist_96c28adb9552",
     "tags": [],
-    "performance_count": 3
+    "performance_count": 3,
+    "album_art_url": "https://is1-ssl.mzstatic.com/image/thumb/Music/a8/fd/92/mzi.onrwugry.jpg/600x600bb.jpg",
+    "created_at": "2025-08-17T06:01:02.164075",
+    "updated_at": "2025-08-17T06:01:02.164076"
   },
   {
     "id": "song_0805f8ad4d8d",
@@ -62,8 +82,12 @@
     "artist": {
       "original": "坂本真綾"
     },
+    "artist_id": "artist_4743773d6f13",
     "tags": [],
-    "performance_count": 2
+    "performance_count": 2,
+    "album_art_url": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/95/86/16/95861669-d824-eaa9-5e6f-d82c43e6a56e/VEATP-32538.jpg/600x600bb.jpg",
+    "created_at": "2025-08-17T06:01:02.164078",
+    "updated_at": "2025-08-17T06:01:02.164079"
   },
   {
     "id": "song_99c51c5fe2ab",
@@ -73,8 +97,12 @@
     "artist": {
       "original": "坂本真綾"
     },
+    "artist_id": "artist_4743773d6f13",
     "tags": [],
-    "performance_count": 2
+    "performance_count": 2,
+    "album_art_url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/3b/6c/92/3b6c920d-e62e-3fd8-29f9-f19d19b5fa39/VTCL-35268.jpg/600x600bb.jpg",
+    "created_at": "2025-08-17T06:01:02.164081",
+    "updated_at": "2025-08-17T06:01:02.164082"
   },
   {
     "id": "song_209757d911fc",
@@ -84,8 +112,12 @@
     "artist": {
       "original": "大塚愛"
     },
+    "artist_id": "artist_2b8bebf8f080",
     "tags": [],
-    "performance_count": 2
+    "performance_count": 2,
+    "album_art_url": "https://is1-ssl.mzstatic.com/image/thumb/Music/e4/86/81/mzi.atzqtspe.jpg/600x600bb.jpg",
+    "created_at": "2025-08-17T06:01:02.164083",
+    "updated_at": "2025-08-17T06:01:02.164084"
   },
   {
     "id": "song_943774f9d320",
@@ -95,8 +127,12 @@
     "artist": {
       "original": "鈴木みのり"
     },
+    "artist_id": "artist_2cdcdf384125",
     "tags": [],
-    "performance_count": 2
+    "performance_count": 2,
+    "album_art_url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/b6/9c/51/b69c5158-e75e-738c-7956-ec4b6d7a5bb0/VTCL-35272.jpg/600x600bb.jpg",
+    "created_at": "2025-08-17T06:01:02.164086",
+    "updated_at": "2025-08-17T06:01:02.164087"
   },
   {
     "id": "song_3e71b1e8a12b",
@@ -106,8 +142,12 @@
     "artist": {
       "original": "小倉唯"
     },
+    "artist_id": "artist_59844b6674b4",
     "tags": [],
-    "performance_count": 2
+    "performance_count": 2,
+    "album_art_url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d4/ed/03/d4ed03a5-959c-9dd2-9086-595ea9d1d149/KICM-1442.jpg/600x600bb.jpg",
+    "created_at": "2025-08-17T06:01:02.164091",
+    "updated_at": "2025-08-17T06:01:02.164093"
   },
   {
     "id": "song_7ba0e8fd7a7a",
@@ -117,8 +157,12 @@
     "artist": {
       "original": "喜多村英梨"
     },
+    "artist_id": "artist_10292fb6dffd",
     "tags": [],
-    "performance_count": 2
+    "performance_count": 2,
+    "album_art_url": "https://is1-ssl.mzstatic.com/image/thumb/Music/15/44/f7/mzi.shymmgfg.jpg/600x600bb.jpg",
+    "created_at": "2025-08-17T06:01:02.164096",
+    "updated_at": "2025-08-17T06:01:02.164097"
   },
   {
     "id": "song_ab51ac25a488",
@@ -128,8 +172,12 @@
     "artist": {
       "original": "緑黄色社会"
     },
+    "artist_id": "artist_a0bde3d19a1c",
     "tags": [],
-    "performance_count": 2
+    "performance_count": 2,
+    "album_art_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ae/04/a9/ae04a9e4-52a5-3676-efa3-a73c1b741a4e/4547366636147.jpg/600x600bb.jpg",
+    "created_at": "2025-08-17T06:01:02.164099",
+    "updated_at": "2025-08-17T06:01:02.164100"
   },
   {
     "id": "song_a591909ad26c",
@@ -139,8 +187,12 @@
     "artist": {
       "original": "シェリル・ノーム/May'n"
     },
+    "artist_id": "artist_ab3ab9686fd3",
     "tags": [],
-    "performance_count": 2
+    "performance_count": 2,
+    "album_art_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4c/1c/e7/4c1ce763-9cff-7675-e6db-80f377a2d6c1/mzi.okfygwta.jpg/600x600bb.jpg",
+    "created_at": "2025-08-17T06:01:02.164102",
+    "updated_at": "2025-08-17T06:01:02.164103"
   },
   {
     "id": "song_325339cb6140",
@@ -150,8 +202,12 @@
     "artist": {
       "original": "i☆Ris"
     },
+    "artist_id": "artist_a6639e83936f",
     "tags": [],
-    "performance_count": 2
+    "performance_count": 2,
+    "album_art_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/89/cf/13/89cf1370-f29f-68c6-cacf-97bfa52b2798/dj.adzqxhxs.jpg/600x600bb.jpg",
+    "created_at": "2025-08-17T06:01:02.164105",
+    "updated_at": "2025-08-17T06:01:02.164106"
   },
   {
     "id": "song_347c404859ca",
@@ -161,8 +217,12 @@
     "artist": {
       "original": "水瀬いのり"
     },
+    "artist_id": "artist_9c8f190b3f74",
     "tags": [],
-    "performance_count": 2
+    "performance_count": 2,
+    "album_art_url": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/91/a9/16/91a916a9-f935-e758-11c8-5c5be64b8434/KICM-1726-1400.jpg/600x600bb.jpg",
+    "created_at": "2025-08-17T06:01:02.164107",
+    "updated_at": "2025-08-17T06:01:02.164108"
   },
   {
     "id": "song_511152bb0812",
@@ -172,8 +232,12 @@
     "artist": {
       "original": "40mP"
     },
+    "artist_id": "artist_723acf0cbe04",
     "tags": [],
-    "performance_count": 2
+    "performance_count": 2,
+    "album_art_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/13/85/13/13851375-a26f-1e5b-0b66-5bba353a236e/4562251592148_cover.png/600x600bb.jpg",
+    "created_at": "2025-08-17T06:01:02.164111",
+    "updated_at": "2025-08-17T06:01:02.164113"
   },
   {
     "id": "song_deee74d81d6d",
@@ -183,8 +247,12 @@
     "artist": {
       "original": "ALI PROJECT"
     },
+    "artist_id": "artist_fba168cbf5a8",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164114",
+    "updated_at": "2025-08-17T06:01:02.164115"
   },
   {
     "id": "song_ef48d218fc11",
@@ -194,8 +262,12 @@
     "artist": {
       "original": "MAHO堂"
     },
+    "artist_id": "artist_76e57f870036",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164117",
+    "updated_at": "2025-08-17T06:01:02.164118"
   },
   {
     "id": "song_09f19afbe1a6",
@@ -205,8 +277,12 @@
     "artist": {
       "original": "なるみや"
     },
+    "artist_id": "artist_11a40510a1d9",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164121",
+    "updated_at": "2025-08-17T06:01:02.164123"
   },
   {
     "id": "song_c7facf85e07e",
@@ -216,8 +292,12 @@
     "artist": {
       "original": "Changin' My Life"
     },
+    "artist_id": "artist_95742149d9a1",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164125",
+    "updated_at": "2025-08-17T06:01:02.164126"
   },
   {
     "id": "song_c0f554e33348",
@@ -227,8 +307,12 @@
     "artist": {
       "original": "ポルノグラフィティ"
     },
+    "artist_id": "artist_bb44dbb05ade",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164127",
+    "updated_at": "2025-08-17T06:01:02.164128"
   },
   {
     "id": "song_79668767d1bd",
@@ -238,8 +322,12 @@
     "artist": {
       "original": "Linked Horizon"
     },
+    "artist_id": "artist_ceab94386dee",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164130",
+    "updated_at": "2025-08-17T06:01:02.164131"
   },
   {
     "id": "song_8f2d78d5725f",
@@ -249,8 +337,12 @@
     "artist": {
       "original": "Sound Horizon"
     },
+    "artist_id": "artist_17f8e3d9c358",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164133",
+    "updated_at": "2025-08-17T06:01:02.164134"
   },
   {
     "id": "song_adf6ade5b8e6",
@@ -260,8 +352,12 @@
     "artist": {
       "original": "Sound Horizon"
     },
+    "artist_id": "artist_17f8e3d9c358",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164135",
+    "updated_at": "2025-08-17T06:01:02.164136"
   },
   {
     "id": "song_a7eaf64d6ba4",
@@ -271,8 +367,12 @@
     "artist": {
       "original": "ハムちゃんず\r\n\n10ヶ月おめでとうございます"
     },
+    "artist_id": "artist_722c9e7df1dc",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164138",
+    "updated_at": "2025-08-17T06:01:02.164139"
   },
   {
     "id": "song_db31740b5dba",
@@ -282,8 +382,12 @@
     "artist": {
       "original": "苺咲べりぃ"
     },
+    "artist_id": "artist_54dc3ce83025",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164141",
+    "updated_at": "2025-08-17T06:01:02.164142"
   },
   {
     "id": "song_a4859802c562",
@@ -293,8 +397,12 @@
     "artist": {
       "original": "結束バンド"
     },
+    "artist_id": "artist_65b581fc6d3e",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164144",
+    "updated_at": "2025-08-17T06:01:02.164145"
   },
   {
     "id": "song_753cf297a2ce",
@@ -304,8 +412,12 @@
     "artist": {
       "original": "水瀬いのり"
     },
+    "artist_id": "artist_9c8f190b3f74",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164146",
+    "updated_at": "2025-08-17T06:01:02.164147"
   },
   {
     "id": "song_26e4ab712334",
@@ -315,8 +427,12 @@
     "artist": {
       "original": "昆夏美"
     },
+    "artist_id": "artist_fd9184af9135",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164149",
+    "updated_at": "2025-08-17T06:01:02.164150"
   },
   {
     "id": "song_af47df804ad8",
@@ -326,8 +442,12 @@
     "artist": {
       "original": "苺咲べりぃ"
     },
+    "artist_id": "artist_54dc3ce83025",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164152",
+    "updated_at": "2025-08-17T06:01:02.164153"
   },
   {
     "id": "song_ecd68672e047",
@@ -337,8 +457,12 @@
     "artist": {
       "original": "苺咲べりぃ"
     },
+    "artist_id": "artist_54dc3ce83025",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164154",
+    "updated_at": "2025-08-17T06:01:02.164155"
   },
   {
     "id": "song_2f1af7ae966f",
@@ -348,8 +472,12 @@
     "artist": {
       "original": "鈴木みのり"
     },
+    "artist_id": "artist_2cdcdf384125",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164157",
+    "updated_at": "2025-08-17T06:01:02.164158"
   },
   {
     "id": "song_e5301b0d9d99",
@@ -359,8 +487,12 @@
     "artist": {
       "original": "FRUITS ZIPPER"
     },
+    "artist_id": "artist_6e008de0dd27",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164160",
+    "updated_at": "2025-08-17T06:01:02.164161"
   },
   {
     "id": "song_fbb947b642a7",
@@ -370,8 +502,12 @@
     "artist": {
       "original": "苺咲べりぃ"
     },
+    "artist_id": "artist_54dc3ce83025",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164162",
+    "updated_at": "2025-08-17T06:01:02.164163"
   },
   {
     "id": "song_78ec519736cb",
@@ -381,8 +517,12 @@
     "artist": {
       "original": "こじまめぐみ"
     },
+    "artist_id": "artist_2fef027d7796",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164165",
+    "updated_at": "2025-08-17T06:01:02.164166"
   },
   {
     "id": "song_b19f4e2ced94",
@@ -392,8 +532,12 @@
     "artist": {
       "original": "Mrs. GREEN APPLE"
     },
+    "artist_id": "artist_ce4236e69a12",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164168",
+    "updated_at": "2025-08-17T06:01:02.164169"
   },
   {
     "id": "song_3d0166542e58",
@@ -403,8 +547,12 @@
     "artist": {
       "original": "ZONE"
     },
+    "artist_id": "artist_1d23cac77df9",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164170",
+    "updated_at": "2025-08-17T06:01:02.164171"
   },
   {
     "id": "song_c73114e9330c",
@@ -414,8 +562,12 @@
     "artist": {
       "original": "whiteberry"
     },
+    "artist_id": "artist_ada35a736fa1",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164173",
+    "updated_at": "2025-08-17T06:01:02.164174"
   },
   {
     "id": "song_52f40e8c5f46",
@@ -425,8 +577,12 @@
     "artist": {
       "original": "土屋実紀 & 下屋則子"
     },
+    "artist_id": "artist_040701a3f608",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164176",
+    "updated_at": "2025-08-17T06:01:02.164177"
   },
   {
     "id": "song_7184c2673fa3",
@@ -436,8 +592,12 @@
     "artist": {
       "original": "小林沙苗"
     },
+    "artist_id": "artist_a863af7a5d6a",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164178",
+    "updated_at": "2025-08-17T06:01:02.164179"
   },
   {
     "id": "song_9a21859b0afa",
@@ -447,8 +607,12 @@
     "artist": {
       "original": "中田あすみ & 寺門仁美 & 浅野まゆみ"
     },
+    "artist_id": "artist_288abd163211",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164181",
+    "updated_at": "2025-08-17T06:01:02.164182"
   },
   {
     "id": "song_ae2da3357f1e",
@@ -458,8 +622,12 @@
     "artist": {
       "original": "中田あすみ & 寺門仁美 & 浅野まゆみ"
     },
+    "artist_id": "artist_288abd163211",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164184",
+    "updated_at": "2025-08-17T06:01:02.164185"
   },
   {
     "id": "song_4011161eb82e",
@@ -469,8 +637,12 @@
     "artist": {
       "original": "ランカ・リー/中島愛"
     },
+    "artist_id": "artist_96c28adb9552",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164187",
+    "updated_at": "2025-08-17T06:01:02.164188"
   },
   {
     "id": "song_78365ed9a1f4",
@@ -480,8 +652,12 @@
     "artist": {
       "original": "堀江由衣"
     },
+    "artist_id": "artist_06f009a91ca9",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164190",
+    "updated_at": "2025-08-17T06:01:02.164191"
   },
   {
     "id": "song_75842ed57350",
@@ -491,8 +667,12 @@
     "artist": {
       "original": "ワルキューレ"
     },
+    "artist_id": "artist_5c34324496c7",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164194",
+    "updated_at": "2025-08-17T06:01:02.164195"
   },
   {
     "id": "song_3466b0af856f",
@@ -502,8 +682,12 @@
     "artist": {
       "original": "ワルキューレ"
     },
+    "artist_id": "artist_5c34324496c7",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164197",
+    "updated_at": "2025-08-17T06:01:02.164198"
   },
   {
     "id": "song_5e663ca90d4b",
@@ -513,8 +697,12 @@
     "artist": {
       "original": "≠ME"
     },
+    "artist_id": "artist_83d9e4a16519",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164199",
+    "updated_at": "2025-08-17T06:01:02.164200"
   },
   {
     "id": "song_fc99e556c29b",
@@ -524,8 +712,12 @@
     "artist": {
       "original": "シェリル・ノーム/May'n & ランカ・リー/中島愛"
     },
+    "artist_id": "artist_013367e21ea0",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164202",
+    "updated_at": "2025-08-17T06:01:02.164203"
   },
   {
     "id": "song_e60c33e3f317",
@@ -535,8 +727,12 @@
     "artist": {
       "original": "ランカ・リー/中島愛"
     },
+    "artist_id": "artist_96c28adb9552",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164205",
+    "updated_at": "2025-08-17T06:01:02.164206"
   },
   {
     "id": "song_118da8a7e8a4",
@@ -546,8 +742,12 @@
     "artist": {
       "original": "シェリル・ノーム/May'n"
     },
+    "artist_id": "artist_ab3ab9686fd3",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164209",
+    "updated_at": "2025-08-17T06:01:02.164210"
   },
   {
     "id": "song_8113b4cd8537",
@@ -557,8 +757,12 @@
     "artist": {
       "original": "鈴木みのり"
     },
+    "artist_id": "artist_2cdcdf384125",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164212",
+    "updated_at": "2025-08-17T06:01:02.164213"
   },
   {
     "id": "song_417bec336007",
@@ -568,8 +772,12 @@
     "artist": {
       "original": "亜咲花"
     },
+    "artist_id": "artist_d5af946a81a1",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164214",
+    "updated_at": "2025-08-17T06:01:02.164215"
   },
   {
     "id": "song_013f7528af65",
@@ -579,8 +787,12 @@
     "artist": {
       "original": "μ's"
     },
+    "artist_id": "artist_a3d9e4b0efe2",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164217",
+    "updated_at": "2025-08-17T06:01:02.164218"
   },
   {
     "id": "song_5c01bb050718",
@@ -590,8 +802,12 @@
     "artist": {
       "original": "Aqours"
     },
+    "artist_id": "artist_cf866b6e4253",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164220",
+    "updated_at": "2025-08-17T06:01:02.164221"
   },
   {
     "id": "song_bede7a1b1106",
@@ -601,8 +817,12 @@
     "artist": {
       "original": "大塚愛"
     },
+    "artist_id": "artist_2b8bebf8f080",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164222",
+    "updated_at": "2025-08-17T06:01:02.164223"
   },
   {
     "id": "song_6cce8b5c20a8",
@@ -612,8 +832,12 @@
     "artist": {
       "original": "Aiko"
     },
+    "artist_id": "artist_c3d2932936d4",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164225",
+    "updated_at": "2025-08-17T06:01:02.164226"
   },
   {
     "id": "song_f31f037fafb2",
@@ -623,8 +847,12 @@
     "artist": {
       "original": "Aiko"
     },
+    "artist_id": "artist_c3d2932936d4",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164228",
+    "updated_at": "2025-08-17T06:01:02.164229"
   },
   {
     "id": "song_1fd6bf273109",
@@ -634,8 +862,12 @@
     "artist": {
       "original": "supercell"
     },
+    "artist_id": "artist_5acc659d13b5",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164230",
+    "updated_at": "2025-08-17T06:01:02.164231"
   },
   {
     "id": "song_7ec04e9a997b",
@@ -645,8 +877,12 @@
     "artist": {
       "original": "コレサワ"
     },
+    "artist_id": "artist_cd598472ad9f",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164233",
+    "updated_at": "2025-08-17T06:01:02.164234"
   },
   {
     "id": "song_713129405b18",
@@ -656,8 +892,12 @@
     "artist": {
       "original": "コレサワ"
     },
+    "artist_id": "artist_cd598472ad9f",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164236",
+    "updated_at": "2025-08-17T06:01:02.164237"
   },
   {
     "id": "song_394bdb848df0",
@@ -667,8 +907,12 @@
     "artist": {
       "original": "スキマスイッチ"
     },
+    "artist_id": "artist_d37db6a1cad1",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164239",
+    "updated_at": "2025-08-17T06:01:02.164240"
   },
   {
     "id": "song_fc3bd3553ff5",
@@ -678,8 +922,12 @@
     "artist": {
       "original": "島谷ひとみ"
     },
+    "artist_id": "artist_f094034c7b17",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164241",
+    "updated_at": "2025-08-17T06:01:02.164242"
   },
   {
     "id": "song_525fa4a08872",
@@ -689,8 +937,12 @@
     "artist": {
       "original": "ランカ・リー/中島愛"
     },
+    "artist_id": "artist_96c28adb9552",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164244",
+    "updated_at": "2025-08-17T06:01:02.164245"
   },
   {
     "id": "song_bb853bd33a2c",
@@ -700,8 +952,12 @@
     "artist": {
       "original": "ランカ・リー/中島愛"
     },
+    "artist_id": "artist_96c28adb9552",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164247",
+    "updated_at": "2025-08-17T06:01:02.164248"
   },
   {
     "id": "song_89847d765b16",
@@ -711,8 +967,12 @@
     "artist": {
       "original": "Ｂ小町"
     },
+    "artist_id": "artist_eb56bf8302d5",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164249",
+    "updated_at": "2025-08-17T06:01:02.164250"
   },
   {
     "id": "song_8b73fda8b689",
@@ -722,8 +982,12 @@
     "artist": {
       "original": "i☆Ris"
     },
+    "artist_id": "artist_a6639e83936f",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164252",
+    "updated_at": "2025-08-17T06:01:02.164253"
   },
   {
     "id": "song_4734d08f59ee",
@@ -733,8 +997,12 @@
     "artist": {
       "original": "チーム\"ハナヤマタ\""
     },
+    "artist_id": "artist_3a3b753c42db",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164255",
+    "updated_at": "2025-08-17T06:01:02.164256"
   },
   {
     "id": "song_7fb0c5ed96a3",
@@ -744,8 +1012,12 @@
     "artist": {
       "original": "SmileY inc."
     },
+    "artist_id": "artist_83372dd41a3e",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164257",
+    "updated_at": "2025-08-17T06:01:02.164258"
   },
   {
     "id": "song_5c5910d5224a",
@@ -755,8 +1027,12 @@
     "artist": {
       "original": "doriko"
     },
+    "artist_id": "artist_e032951f75f1",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164260",
+    "updated_at": "2025-08-17T06:01:02.164261"
   },
   {
     "id": "song_2dad4dcc83c9",
@@ -766,8 +1042,12 @@
     "artist": {
       "original": "きりたんP"
     },
+    "artist_id": "artist_49d3e064736e",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164265",
+    "updated_at": "2025-08-17T06:01:02.164267"
   },
   {
     "id": "song_113431519dae",
@@ -777,8 +1057,12 @@
     "artist": {
       "original": "西沢さんP"
     },
+    "artist_id": "artist_6477cbdd43c1",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164269",
+    "updated_at": "2025-08-17T06:01:02.164270"
   },
   {
     "id": "song_7c7967e16bb8",
@@ -788,8 +1072,12 @@
     "artist": {
       "original": "西沢さんP"
     },
+    "artist_id": "artist_6477cbdd43c1",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164271",
+    "updated_at": "2025-08-17T06:01:02.164272"
   },
   {
     "id": "song_54640149c022",
@@ -799,8 +1087,12 @@
     "artist": {
       "original": "芹澤優"
     },
+    "artist_id": "artist_41cdea3a4333",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164274",
+    "updated_at": "2025-08-17T06:01:02.164275"
   },
   {
     "id": "song_9847676e5910",
@@ -810,8 +1102,12 @@
     "artist": {
       "original": "HoneyWorks"
     },
+    "artist_id": "artist_3dafda1d0ec9",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164277",
+    "updated_at": "2025-08-17T06:01:02.164278"
   },
   {
     "id": "song_e2074a68a566",
@@ -821,8 +1117,12 @@
     "artist": {
       "original": "釘宮理恵"
     },
+    "artist_id": "artist_5a46bbd74548",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164279",
+    "updated_at": "2025-08-17T06:01:02.164281"
   },
   {
     "id": "song_72d4eeaefea9",
@@ -832,8 +1132,12 @@
     "artist": {
       "original": "HoneyWorks"
     },
+    "artist_id": "artist_3dafda1d0ec9",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164282",
+    "updated_at": "2025-08-17T06:01:02.164283"
   },
   {
     "id": "song_c9c6c1ff0b13",
@@ -843,8 +1147,12 @@
     "artist": {
       "original": "CUTIE STREET"
     },
+    "artist_id": "artist_d20e116eff14",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164285",
+    "updated_at": "2025-08-17T06:01:02.164286"
   },
   {
     "id": "song_a231e272b301",
@@ -854,8 +1162,12 @@
     "artist": {
       "original": "KEI"
     },
+    "artist_id": "artist_262e8c48935a",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164288",
+    "updated_at": "2025-08-17T06:01:02.164289"
   },
   {
     "id": "song_c8c393b2b4dd",
@@ -865,8 +1177,12 @@
     "artist": {
       "original": "きりたんP"
     },
+    "artist_id": "artist_49d3e064736e",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164291",
+    "updated_at": "2025-08-17T06:01:02.164292"
   },
   {
     "id": "song_a7d7a41ab8df",
@@ -876,8 +1192,12 @@
     "artist": {
       "original": "超ときめき♡宣伝部"
     },
+    "artist_id": "artist_109d907fb63d",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164295",
+    "updated_at": "2025-08-17T06:01:02.164296"
   },
   {
     "id": "song_56f38c59fd55",
@@ -887,8 +1207,12 @@
     "artist": {
       "original": "坂本真綾"
     },
+    "artist_id": "artist_4743773d6f13",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164298",
+    "updated_at": "2025-08-17T06:01:02.164299"
   },
   {
     "id": "song_1ca0e102e305",
@@ -898,8 +1222,12 @@
     "artist": {
       "original": "坂本真綾"
     },
+    "artist_id": "artist_4743773d6f13",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164301",
+    "updated_at": "2025-08-17T06:01:02.164302"
   },
   {
     "id": "song_e8804d5b18cd",
@@ -909,8 +1237,12 @@
     "artist": {
       "original": "三人祭"
     },
+    "artist_id": "artist_6624706aa002",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164303",
+    "updated_at": "2025-08-17T06:01:02.164304"
   },
   {
     "id": "song_d6571311744a",
@@ -920,8 +1252,12 @@
     "artist": {
       "original": "松浦亜弥"
     },
+    "artist_id": "artist_a97b176faf30",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164306",
+    "updated_at": "2025-08-17T06:01:02.164307"
   },
   {
     "id": "song_610c54b83224",
@@ -931,8 +1267,12 @@
     "artist": {
       "original": "LiSA"
     },
+    "artist_id": "artist_b53498bd12b2",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164309",
+    "updated_at": "2025-08-17T06:01:02.164310"
   },
   {
     "id": "song_68aef118359c",
@@ -942,8 +1282,12 @@
     "artist": {
       "original": "Aimer"
     },
+    "artist_id": "artist_850cc3da5e71",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164311",
+    "updated_at": "2025-08-17T06:01:02.164312"
   },
   {
     "id": "song_e623011406a0",
@@ -953,8 +1297,12 @@
     "artist": {
       "original": "ヨルシカ"
     },
+    "artist_id": "artist_934055de4f06",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164314",
+    "updated_at": "2025-08-17T06:01:02.164315"
   },
   {
     "id": "song_de07cad0d2dc",
@@ -964,8 +1312,12 @@
     "artist": {
       "original": "ヨルシカ"
     },
+    "artist_id": "artist_934055de4f06",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164317",
+    "updated_at": "2025-08-17T06:01:02.164318"
   },
   {
     "id": "song_9b448920aa21",
@@ -975,8 +1327,12 @@
     "artist": {
       "original": "YOASOBI"
     },
+    "artist_id": "artist_e6effaa86db6",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164321",
+    "updated_at": "2025-08-17T06:01:02.164323"
   },
   {
     "id": "song_a374c35636a7",
@@ -986,8 +1342,12 @@
     "artist": {
       "original": "YOASOBI"
     },
+    "artist_id": "artist_e6effaa86db6",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164324",
+    "updated_at": "2025-08-17T06:01:02.164325"
   },
   {
     "id": "song_09b087bca4e5",
@@ -997,8 +1357,12 @@
     "artist": {
       "original": "LiSA"
     },
+    "artist_id": "artist_b53498bd12b2",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164327",
+    "updated_at": "2025-08-17T06:01:02.164328"
   },
   {
     "id": "song_51c3ebc43391",
@@ -1008,8 +1372,12 @@
     "artist": {
       "original": "LiSA"
     },
+    "artist_id": "artist_b53498bd12b2",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164330",
+    "updated_at": "2025-08-17T06:01:02.164331"
   },
   {
     "id": "song_f76ac592f88c",
@@ -1019,8 +1387,12 @@
     "artist": {
       "original": "奧華子"
     },
+    "artist_id": "artist_3172a1733db9",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164333",
+    "updated_at": "2025-08-17T06:01:02.164334"
   },
   {
     "id": "song_9cc794e43f9b",
@@ -1030,8 +1402,12 @@
     "artist": {
       "original": "奧華子"
     },
+    "artist_id": "artist_3172a1733db9",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164336",
+    "updated_at": "2025-08-17T06:01:02.164337"
   },
   {
     "id": "song_fc25fb839798",
@@ -1041,8 +1417,12 @@
     "artist": {
       "original": "秦基博"
     },
+    "artist_id": "artist_ec71587d24c1",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164339",
+    "updated_at": "2025-08-17T06:01:02.164341"
   },
   {
     "id": "song_21dd00335c2d",
@@ -1052,8 +1432,12 @@
     "artist": {
       "original": "苺咲べりぃ"
     },
+    "artist_id": "artist_54dc3ce83025",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164343",
+    "updated_at": "2025-08-17T06:01:02.164344"
   },
   {
     "id": "song_9a3745cf8d7a",
@@ -1063,8 +1447,12 @@
     "artist": {
       "original": "ClariS"
     },
+    "artist_id": "artist_236c679f9ad5",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164346",
+    "updated_at": "2025-08-17T06:01:02.164347"
   },
   {
     "id": "song_12dd9b5a1ba3",
@@ -1074,8 +1462,12 @@
     "artist": {
       "original": "ClariS"
     },
+    "artist_id": "artist_236c679f9ad5",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164349",
+    "updated_at": "2025-08-17T06:01:02.164350"
   },
   {
     "id": "song_9b34fd41ac63",
@@ -1085,8 +1477,12 @@
     "artist": {
       "original": "ClariS"
     },
+    "artist_id": "artist_236c679f9ad5",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164351",
+    "updated_at": "2025-08-17T06:01:02.164352"
   },
   {
     "id": "song_96d5ec7449af",
@@ -1096,8 +1492,12 @@
     "artist": {
       "original": "小倉唯"
     },
+    "artist_id": "artist_59844b6674b4",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164354",
+    "updated_at": "2025-08-17T06:01:02.164355"
   },
   {
     "id": "song_6d093a0d7b50",
@@ -1107,8 +1507,12 @@
     "artist": {
       "original": "田村ゆかり"
     },
+    "artist_id": "artist_0593672d8940",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164357",
+    "updated_at": "2025-08-17T06:01:02.164358"
   },
   {
     "id": "song_57fd966b1212",
@@ -1118,8 +1522,12 @@
     "artist": {
       "original": "田村ゆかり"
     },
+    "artist_id": "artist_0593672d8940",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164360",
+    "updated_at": "2025-08-17T06:01:02.164361"
   },
   {
     "id": "song_7776872eb600",
@@ -1129,8 +1537,12 @@
     "artist": {
       "original": "堀江由衣"
     },
+    "artist_id": "artist_06f009a91ca9",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164362",
+    "updated_at": "2025-08-17T06:01:02.164363"
   },
   {
     "id": "song_44d30adcba71",
@@ -1140,8 +1552,12 @@
     "artist": {
       "original": "堀江由衣"
     },
+    "artist_id": "artist_06f009a91ca9",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164365",
+    "updated_at": "2025-08-17T06:01:02.164366"
   },
   {
     "id": "song_c4ccc2d8d816",
@@ -1151,8 +1567,12 @@
     "artist": {
       "original": "AiRI"
     },
+    "artist_id": "artist_4676aaef7723",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164368",
+    "updated_at": "2025-08-17T06:01:02.164369"
   },
   {
     "id": "song_64ecde73dce7",
@@ -1162,8 +1582,12 @@
     "artist": {
       "original": "喜多村英梨"
     },
+    "artist_id": "artist_10292fb6dffd",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164370",
+    "updated_at": "2025-08-17T06:01:02.164371"
   },
   {
     "id": "song_c66915f9acab",
@@ -1173,8 +1597,12 @@
     "artist": {
       "original": "坂本真綾"
     },
+    "artist_id": "artist_4743773d6f13",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164373",
+    "updated_at": "2025-08-17T06:01:02.164374"
   },
   {
     "id": "song_cfa814371264",
@@ -1184,8 +1612,12 @@
     "artist": {
       "original": "ChouCho"
     },
+    "artist_id": "artist_7cc0e3991a53",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164376",
+    "updated_at": "2025-08-17T06:01:02.164377"
   },
   {
     "id": "song_67e270167866",
@@ -1195,8 +1627,12 @@
     "artist": {
       "original": "Goose house"
     },
+    "artist_id": "artist_9be62cbca806",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164380",
+    "updated_at": "2025-08-17T06:01:02.164381"
   },
   {
     "id": "song_1f80f63c043e",
@@ -1206,8 +1642,12 @@
     "artist": {
       "original": "みかくにんぐッ!"
     },
+    "artist_id": "artist_22552b267948",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164383",
+    "updated_at": "2025-08-17T06:01:02.164384"
   },
   {
     "id": "song_583a41081161",
@@ -1217,8 +1657,12 @@
     "artist": {
       "original": "岩男潤子"
     },
+    "artist_id": "artist_a363ef917993",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164386",
+    "updated_at": "2025-08-17T06:01:02.164387"
   },
   {
     "id": "song_84857b2a54de",
@@ -1228,7 +1672,11 @@
     "artist": {
       "original": "観月ありさ"
     },
+    "artist_id": "artist_48b516d919e5",
     "tags": [],
-    "performance_count": 1
+    "performance_count": 1,
+    "album_art_url": null,
+    "created_at": "2025-08-17T06:01:02.164389",
+    "updated_at": "2025-08-17T06:01:02.164390"
   }
 ]

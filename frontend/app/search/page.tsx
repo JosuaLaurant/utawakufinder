@@ -23,11 +23,11 @@ export default function Search() {
       const filtered = songs.filter(song => {
         const searchText = query.toLowerCase()
         return (
-          song.song_name.toLowerCase().includes(searchText) ||
+          song.song_title.toLowerCase().includes(searchText) ||
           song.song_artist.toLowerCase().includes(searchText) ||
-          song.singer.toLowerCase().includes(searchText) ||
+          song.utaite_name.toLowerCase().includes(searchText) ||
           song.video_title.toLowerCase().includes(searchText) ||
-          song.channel.toLowerCase().includes(searchText)
+          song.video_channel.toLowerCase().includes(searchText)
         )
       })
       setFilteredSongs(filtered)

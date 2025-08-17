@@ -39,7 +39,8 @@ export default function ArtistsPage() {
     console.log('🎤 전체 아티스트 목록 가져오기 시작')
     
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/artists`)
+      const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:9030'
+      const response = await fetch(`${backendUrl}/artists`)
       const data = await response.json()
       setArtists(data)
       console.log('✅ 아티스트 목록 조회 성공:', data.length, '명')
@@ -87,7 +88,7 @@ export default function ArtistsPage() {
                 <div className="relative mb-4">
                   {artist.latest_performance && (
                     <img
-                      src={artist.latest_performance.thumbnail}
+                      src={artist.latest_performance.thumbnail_url || artist.latest_performance.thumbnail}
                       alt={artist.name}
                       className="w-full h-40 object-cover rounded-lg"
                     />
@@ -120,7 +121,7 @@ export default function ArtistsPage() {
                 <div>
                   <p className="text-sm text-gray-400 mb-2">인기 곡:</p>
                   <div className="space-y-1">
-                    {artist.top_songs.slice(0, 3).map((song) => (
+                    {(artist.top_songs || []).slice(0, 3).map((song) => (
                       <div key={song.id} className="flex justify-between items-center text-sm">
                         <span className="text-gray-300 truncate flex-1 mr-2">
                           {song.title}
@@ -130,6 +131,9 @@ export default function ArtistsPage() {
                         </span>
                       </div>
                     ))}
+                    {(!artist.top_songs || artist.top_songs.length === 0) && (
+                      <p className="text-gray-500 text-xs">인기 곡 정보가 없습니다.</p>
+                    )}
                   </div>
                 </div>
               </div>
