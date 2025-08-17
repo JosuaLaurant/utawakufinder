@@ -45,3 +45,32 @@ body {
 .custom-scrollbar::-webkit-scrollbar-thumb:active {
   background: #AA0000;
 }
+
+/* Smooth horizontal scroll */
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+/* Hover effects for scroll navigation */
+.scroll-nav-btn {
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+}
+
+.scroll-nav-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Drag scroll cursor styles */
+.cursor-grab {
+  cursor: grab;
+}
+
+.cursor-grabbing {
+  cursor: grabbing;
+}
+
+.active\:cursor-grabbing:active {
+  cursor: grabbing;
+}

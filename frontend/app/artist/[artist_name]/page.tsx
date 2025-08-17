@@ -1,11 +1,11 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useParams, useRouter } from 'next/navigation'
 import Header from '@/components/Header'
 import SongCard from '@/components/SongCard'
 import { SongEntry } from '@/types'
-import { Music, Users, Calendar, PlayCircle, ArrowLeft, ExternalLink } from 'lucide-react'
+import { Music, Users, Calendar, PlayCircle, ArrowLeft, ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react'
 
 interface GroupedSong {
   song_id: number
@@ -27,6 +27,95 @@ export default function ArtistPage() {
     latestPerformance: SongEntry | null
     firstPerformance: SongEntry | null
   } | null>(null)
+  
+  // 스크롤 컨테이너 refs
+  const scrollRefs = useRef<{ [key: number]: HTMLDivElement | null }>({})
+  
+  // 드래그 스크롤 상태
+  const [dragState, setDragState] = useState<{
+    isDragging: boolean
+    startX: number
+    scrollLeft: number
+    songId: number | null
+  }>({
+    isDragging: false,
+    startX: 0,
+    scrollLeft: 0,
+    songId: null
+  })
+  
+  const scrollLeft = (songId: number) => {
+    const container = scrollRefs.current[songId]
+    if (container) {
+      container.scrollBy({ left: -400, behavior: 'smooth' })
+    }
+  }
+  
+  const scrollRight = (songId: number) => {
+    const container = scrollRefs.current[songId]
+    if (container) {
+      container.scrollBy({ left: 400, behavior: 'smooth' })
+    }
+  }
+  
+  // 드래그 스크롤 핸들러들
+  const handleMouseDown = (e: React.MouseEvent, songId: number) => {
+    const container = scrollRefs.current[songId]
+    if (container) {
+      setDragState({
+        isDragging: true,
+        startX: e.pageX - container.offsetLeft,
+        scrollLeft: container.scrollLeft,
+        songId
+      })
+      container.style.cursor = 'grabbing'
+      container.style.userSelect = 'none'
+    }
+  }
+  
+  const handleMouseMove = (e: React.MouseEvent) => {
+    if (!dragState.isDragging || dragState.songId === null) return
+    
+    e.preventDefault()
+    const container = scrollRefs.current[dragState.songId]
+    if (container) {
+      const x = e.pageX - container.offsetLeft
+      const walk = (x - dragState.startX) * 2
+      container.scrollLeft = dragState.scrollLeft - walk
+    }
+  }
+  
+  const handleMouseUp = () => {
+    if (dragState.songId !== null) {
+      const container = scrollRefs.current[dragState.songId]
+      if (container) {
+        container.style.cursor = 'grab'
+        container.style.userSelect = 'auto'
+      }
+    }
+    setDragState({
+      isDragging: false,
+      startX: 0,
+      scrollLeft: 0,
+      songId: null
+    })
+  }
+  
+  const handleMouseLeave = () => {
+    if (dragState.isDragging && dragState.songId !== null) {
+      const container = scrollRefs.current[dragState.songId]
+      if (container) {
+        container.style.cursor = 'grab'
+        container.style.userSelect = 'auto'
+      }
+      setDragState({
+        isDragging: false,
+        startX: 0,
+        scrollLeft: 0,
+        songId: null
+      })
+    }
+  }
 
   useEffect(() => {
     if (artist_name) {
@@ -223,13 +312,48 @@ export default function ArtistPage() {
               </div>
               
               {/* 해당 곡의 공연 기록들 - 가로 스크롤 */}
-              <div className="flex gap-4 overflow-x-auto pb-4 custom-scrollbar">
-                <div className="flex gap-4 min-w-max">
-                  {artistSong.performances.map((performance) => (
-                    <div key={performance.id} className="flex-shrink-0 w-80">
-                      <SongCard song={performance} />
-                    </div>
-                  ))}
+              <div className="relative group">
+                {/* 좌측 스크롤 버튼 */}
+                <button
+                  onClick={() => scrollLeft(artistSong.song_id)}
+                  className="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-black bg-opacity-60 hover:bg-opacity-90 text-white p-3 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300 scroll-nav-btn shadow-lg"
+                  style={{ transform: 'translateY(-50%)' }}
+                >
+                  <ChevronLeft className="w-6 h-6" />
+                </button>
+                
+                {/* 우측 스크롤 버튼 */}
+                <button
+                  onClick={() => scrollRight(artistSong.song_id)}
+                  className="absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-black bg-opacity-60 hover:bg-opacity-90 text-white p-3 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300 scroll-nav-btn shadow-lg"
+                  style={{ transform: 'translateY(-50%)' }}
+                >
+                  <ChevronRight className="w-6 h-6" />
+                </button>
+                
+                {/* 스크롤 컨테이너 */}
+                <div 
+                  ref={(el) => {
+                    scrollRefs.current[artistSong.song_id] = el
+                  }}
+                  className="flex gap-4 overflow-x-auto pb-4 scrollbar-hide scroll-smooth cursor-grab active:cursor-grabbing"
+                  style={{
+                    scrollbarWidth: 'none',
+                    msOverflowStyle: 'none',
+                    WebkitScrollbar: { display: 'none' }
+                  }}
+                  onMouseDown={(e) => handleMouseDown(e, artistSong.song_id)}
+                  onMouseMove={handleMouseMove}
+                  onMouseUp={handleMouseUp}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  <div className="flex gap-4 min-w-max px-8 pointer-events-none">
+                    {artistSong.performances.map((performance) => (
+                      <div key={performance.id} className="flex-shrink-0 w-80 pointer-events-auto">
+                        <SongCard song={performance} />
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
