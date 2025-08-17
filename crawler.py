@@ -1,7 +1,15 @@
 import requests
+import os
 from urllib.parse import urlparse, parse_qs
+from dotenv import load_dotenv
 
-YOUTUBE_API_KEY = "AIzaSyAib0qYH5tmsR1b5wbK-kRjxF_FwgqzIOw"
+# .env 파일에서 환경변수 로드
+load_dotenv()
+
+YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
+
+if not YOUTUBE_API_KEY:
+    raise ValueError("YOUTUBE_API_KEY가 환경변수에 설정되지 않았습니다. .env 파일을 확인해주세요.")
 
 def find_comment(video_id: str, max_pages=20):
     """유튜브 비디오의 댓글을 가져오는 함수"""

@@ -956,7 +956,15 @@ def parse_description_format(comments: List[str], parentheses_pattern) -> List[d
 def get_video_info(video_id: str) -> Optional[VideoInfo]:
     try:
         import requests
-        YOUTUBE_API_KEY = "AIzaSyAib0qYH5tmsR1b5wbK-kRjxF_FwgqzIOw"
+        import os
+        from dotenv import load_dotenv
+        
+        load_dotenv()
+        YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
+        
+        if not YOUTUBE_API_KEY:
+            logger.error("YOUTUBE_API_KEY가 환경변수에 설정되지 않았습니다.")
+            return None
         
         base_url = "https://www.googleapis.com/youtube/v3/videos"
         params = {
