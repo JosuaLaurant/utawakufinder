@@ -7,14 +7,9 @@ import SongCard from '@/components/SongCard'
 import { SongEntry } from '@/types'
 import { Music, Users, Calendar, PlayCircle, ArrowLeft, ExternalLink } from 'lucide-react'
 
-interface ArtistSong {
-  song_master: {
-    id: string
-    titles: { original: string }
-    artist: { original: string }
-    tags: string[]
-    performance_count: number
-  }
+interface GroupedSong {
+  song_id: number
+  song_title: string
   performances: SongEntry[]
 }
 
@@ -23,7 +18,7 @@ export default function ArtistPage() {
   const router = useRouter()
   const artist_name = decodeURIComponent(params?.artist_name as string)
   
-  const [artistSongs, setArtistSongs] = useState<ArtistSong[]>([])
+  const [artistSongs, setArtistSongs] = useState<GroupedSong[]>([])
   const [loading, setLoading] = useState(true)
   const [artistStats, setArtistStats] = useState<{
     totalSongs: number
@@ -44,19 +39,36 @@ export default function ArtistPage() {
     
     try {
       // 아티스트의 모든 곡과 공연 기록 가져오기
-      const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/artists/songs?name=${encodeURIComponent(artist_name)}`)
+      const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:9030'
+      const response = await fetch(`${backendUrl}/artists/songs?name=${encodeURIComponent(artist_name)}`)
       
       if (!response.ok) {
         throw new Error('아티스트 정보를 찾을 수 없습니다.')
       }
       
       const data = await response.json()
-      setArtistSongs(data)
-      console.log('✅ 아티스트 곡 정보:', data.length, '곡')
+      
+      // API 응답 (PerformanceDetail[])을 곡별로 그룹화
+      const songsMap = new Map<number, GroupedSong>()
+      
+      data.forEach((performance: SongEntry) => {
+        if (!songsMap.has(performance.song_id)) {
+          songsMap.set(performance.song_id, {
+            song_id: performance.song_id,
+            song_title: performance.song_title,
+            performances: []
+          })
+        }
+        songsMap.get(performance.song_id)!.performances.push(performance)
+      })
+      
+      const groupedSongs = Array.from(songsMap.values())
+      setArtistSongs(groupedSongs)
+      console.log('✅ 아티스트 곡 정보:', groupedSongs.length, '곡')
 
       // 통계 계산
-      const allPerformances = data.flatMap((song: ArtistSong) => song.performances)
-      const uniqueSingers = Array.from(new Set(allPerformances.map((p: SongEntry) => p.singer)))
+      const allPerformances = data
+      const uniqueSingers = Array.from(new Set(allPerformances.map((p: SongEntry) => p.utaite_name)))
       
       // 최신/최오래된 공연 찾기
       const sortedPerformances = allPerformances.sort((a: SongEntry, b: SongEntry) => 
@@ -64,7 +76,7 @@ export default function ArtistPage() {
       )
       
       setArtistStats({
-        totalSongs: data.length,
+        totalSongs: groupedSongs.length,
         totalPerformances: allPerformances.length,
         uniqueSingers,
         latestPerformance: sortedPerformances[0] || null,
@@ -126,7 +138,7 @@ export default function ArtistPage() {
               {artistStats.latestPerformance && (
                 <div className="flex-shrink-0">
                   <img 
-                    src={artistStats.latestPerformance.thumbnail} 
+                    src={artistStats.latestPerformance.thumbnail_url} 
                     alt={artist_name}
                     className="w-48 h-32 object-cover rounded-lg"
                   />
@@ -170,7 +182,7 @@ export default function ArtistPage() {
                   <div className="flex flex-wrap gap-2">
                     {artistStats.uniqueSingers.map(singer => {
                       const count = artistSongs.flatMap(song => song.performances)
-                        .filter(p => p.singer === singer).length
+                        .filter(p => p.utaite_name === singer).length
                       return (
                         <span 
                           key={singer}
@@ -194,15 +206,15 @@ export default function ArtistPage() {
           </h3>
           
           {artistSongs.map((artistSong) => (
-            <div key={artistSong.song_master.id} className="mb-8">
+            <div key={artistSong.song_id} className="mb-8">
               {/* 곡 제목과 정보 */}
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-4">
                   <h4 
                     className="text-xl font-semibold text-white hover:text-youtube-red transition-colors cursor-pointer"
-                    onClick={() => router.push(`/song/${artistSong.song_master.id}`)}
+                    onClick={() => router.push(`/song/${artistSong.song_id}`)}
                   >
-                    {artistSong.song_master.titles.original}
+                    {artistSong.song_title}
                   </h4>
                   <span className="text-gray-400 text-sm">
                     {artistSong.performances.length}회 불림
@@ -210,11 +222,15 @@ export default function ArtistPage() {
                 </div>
               </div>
               
-              {/* 해당 곡의 공연 기록들 */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-                {artistSong.performances.map((performance) => (
-                  <SongCard key={performance.id} song={performance} />
-                ))}
+              {/* 해당 곡의 공연 기록들 - 가로 스크롤 */}
+              <div className="flex gap-4 overflow-x-auto pb-4 custom-scrollbar">
+                <div className="flex gap-4 min-w-max">
+                  {artistSong.performances.map((performance) => (
+                    <div key={performance.id} className="flex-shrink-0 w-80">
+                      <SongCard song={performance} />
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           ))}
