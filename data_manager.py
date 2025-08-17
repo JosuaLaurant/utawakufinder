@@ -203,13 +203,13 @@ class DataManager:
             if not utaite or not song:
                 continue
                 
-            artist = artists_dict.get(song.artist_id) if hasattr(song, 'artist_id') else None
+            # 기존 구조 호환성 - artist 필드에서 직접 가져오기
             video = videos_dict.get(perf.video_id)
             
             # 언어별 이름 선택
             utaite_name = utaite.names.get(language) or utaite.names.get('original', '')
             song_title = song.titles.get(language) or song.titles.get('original', '')
-            artist_name = artist.names.get(language) or artist.names.get('original', '') if artist else ''
+            artist_name = song.artist.get(language) or song.artist.get('original', '') if song.artist else ''
             
             detail = PerformanceWithDetails(
                 id=perf.id,
